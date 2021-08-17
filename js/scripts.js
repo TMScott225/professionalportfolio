@@ -75,7 +75,7 @@ window.addEventListener('DOMContentLoaded', event => {
         window.open('https://ampbeautyla.com/')
     })
     real.addEventListener('click',()=>{
-        window.open('https://play.google.com/store/apps/details?id=com.mobileblkhistriv')
+        window.open('https://github.com/TMScott225/universerealty')
     })
 });
 
