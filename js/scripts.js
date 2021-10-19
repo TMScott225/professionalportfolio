@@ -1,6 +1,15 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    // Magic Scroll
+    // var scene = new ScrollMagic.Scene();
+    // var scene = new ScrollMagic.Scene({
+    //     triggerElement: '#services', // starting scene, when reaching this element
+    //     duration: 400 // pin the element for a total of 400px
+    //   })
+
+    //   controller.addScene(scene);
+
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');

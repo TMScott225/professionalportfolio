@@ -1,0 +1,144 @@
+a.nav-link{
+    color: black;
+}
+h4, .h4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  .headerText0{
+    animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  }
+  .headerText1 {
+  animation-name: moveInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  }
+  .headerText2{
+    animation-name: moveInUp;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    }
+  .headerText3{
+      animation-name: moveInUp;
+      animation-duration: 3s;
+      animation-timing-function: ease-out;
+      }
+      .headerButton{
+        animation-name: buttonShake;
+        animation-duration: 3.5s;
+        animation-timing-function: ease-out;
+      }
+  @keyframes moveInLeft {
+    0%{
+      opacity:0;
+      transform: translateX(-90%);
+    }
+     /* 50%{
+      opacity:0.15;
+      transform: translateX(-75px);
+    }
+    75%{
+      opacity:0.20;
+      transform: translateX(-50px);
+    }  */
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  @keyframes moveInRight {
+    0%{
+      opacity:0;
+      transform: translateX(90%);
+    }
+     /* 50%{
+      opacity:0.15;
+      transform: translateX(-75px);
+    }
+    75%{
+      opacity:0.20;
+      transform: translateX(-50px);
+    }  */
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  @keyframes moveInUp {
+    0%{
+      opacity:0;
+      transform: translateY(97%)
+    }
+     50%{
+      opacity:0.05;
+      transform: translateY(90%);
+    }
+    75%{
+      opacity:0.10;
+      transform: translateY(85%);
+    }  
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  @keyframes buttonShake {
+    0%{
+      opacity:0;
+      transform: translateY(97%)
+    }
+     50%{
+      opacity:0.05;
+      transform: translateY(-50%);
+    }
+    75%{
+      opacity:0.10;
+      transform: translateY(85%);
+    }  
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  .page-section{
+    padding: 15rem 0;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+  }
+  
+  .learnMore:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+  
+  h5, .h5 {
+    font-size: 1.25rem;
+  }
+  
+  h6, .h6 {
+    font-size: 1rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .port-links{
+    color:#05386B
+  
+    
+  }
+  
+  .bi-linkedin{
+    cursor: pointer;
+  }
+  .bi-file-pdf{
+    cursor: pointer;
+  }
+  .portfolio-header{
+    color: white;
+  }
+  .code{
+    font-size: xx-large;
+    font-weight: 900;
+  }
