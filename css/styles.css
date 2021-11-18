@@ -2995,7 +2995,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #5CDB95;
+  background-color: #379683;
   border-color: #5CDB95;
 }
 .btn-primary:hover {
@@ -3174,12 +3174,12 @@ textarea.form-control-lg {
 }
 
 .btn-light {
-  color: #000;
-  background-color: #f8f9fa;
+  color: #05386B;
+  background-color: #fff;
   border-color: #f8f9fa;
 }
 .btn-light:hover {
-  color: #000;
+  color: #05386B;
   background-color: #f9fafb;
   border-color: #f9fafb;
 }
@@ -7430,7 +7430,8 @@ textarea.form-control-lg {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #fff !important;
+  
 }
 
 .text-reset {
@@ -7438,9 +7439,9 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #5CDB95 !important;
+  background-color: #379683 !important;
 }
-
+   
 .bg-secondary {
   background-color: #379683 !important;
 }
@@ -10984,8 +10985,8 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: url("../assets/header.jpg");
-  background-position: top;
+  background: url("../assets/laptop2.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;

@@ -29,6 +29,35 @@ h4, .h4 {
         animation-duration: 3.5s;
         animation-timing-function: ease-out;
       }
+  @media screen and  (min-width :1000px){
+    h4{
+      font-size: medium;
+    }
+  }
+  @media screen and  (min-width :851px){
+    h4{
+      font-size: smaller ;
+    }
+  }
+  @media screen and  (max-width :850px){
+    header.masthead{
+      background-size: cover;
+      background-origin: content-box;
+
+      /* transform: scale(0.75,0.75); */
+     
+    }    
+    .pc-words{
+      margin-top: 50%;
+    }
+    h4{
+      font-size: small;
+      
+    }
+    .headerButton{
+      margin-top: 20%;
+    }
+  }
   @keyframes moveInLeft {
     0%{
       opacity:0;
