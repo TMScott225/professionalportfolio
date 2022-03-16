@@ -153,9 +153,20 @@ h4, .h4 {
     margin-bottom: 1rem;
   }
   .port-links{
-    color:#05386B
+    color:white;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: large;
+    font-family: inherit;
   
     
+  }
+  .port-links:hover{
+    cursor: pointer;
+    color: khaki;
   }
   
   .bi-linkedin{
@@ -171,3 +182,7 @@ h4, .h4 {
     font-size: xx-large;
     font-weight: 900;
   }
+  .logoimg{
+    align-self: center;
+  }
+    

@@ -62,20 +62,24 @@ window.addEventListener('DOMContentLoaded', event => {
     let app=document.querySelector('.port-app');
     let amp=document.querySelector('.port-amp');
     let real=document.querySelector('.port-real');
+    let bike=document.querySelector('.port-bike');
     linkedin.addEventListener('click',()=>{
         window.open('https://www.linkedin.com/in/travis-scott-1b666146/')
     });
     pdf.addEventListener('click',()=>{
-        window.open('./assets/files/resume.pdf')
+        window.open('./assets/files/resume.pdf',"_blank")
     });
     app.addEventListener('click',()=>{
-        window.open('https://play.google.com/store/apps/details?id=com.mobileblkhistriv')
+        window.open('https://play.google.com/store/apps/details?id=com.mobileblkhistriv',"_blank")
     })
     amp.addEventListener('click',()=>{
-        window.open('https://ampbeautyla.com/')
+        window.open('https://ampbeautyla.com/',"_blank")
     })
     real.addEventListener('click',()=>{
-        window.open('https://github.com/TMScott225/universerealty')
+        window.open('https://github.com/TMScott225/universerealty',"_blank")
+    })
+    bike.addEventListener('click',()=>{
+        window.open('https://tmscott225.github.io/bikeclub/',"_blank")
     })
 });
 
