@@ -176,6 +176,8 @@ h4, .h4 {
     align-self: center;
   }
   .img-fluid{
+    background-size: cover;
+    background-image: cover;
     width: 100%;
     
   }
